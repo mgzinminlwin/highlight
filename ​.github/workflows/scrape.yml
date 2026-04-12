@@ -23,7 +23,7 @@ jobs:
           extensions: curl
 
       - name: Run Scraper Script
-        run: php scraper.php
+        run: php scrape.php
 
       - name: Commit and Push if changes
         run: |
